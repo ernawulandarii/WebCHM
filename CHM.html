@@ -22,11 +22,11 @@
 	
     <!-- Favicons CHM
 	=================================================== -->
-	<link rel="shortcut icon" href="CHM Icon.jpg" >
+	<link rel="shortcut icon" href="CHM Logo.png" >
 	
     <!-- menempel font typografi CHM official 
 	=================================================== -->
-    <link rel="stylesheet" href="CHM_Font/stylesheet_helveticaneue.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="CHM_Font/stylesheet_chm.css" type="text/css" charset="utf-8" />
      <!-- // tempel font -->
     
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
@@ -99,17 +99,27 @@ $(document).ready(function(){
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
-	<div class="col-xs-7 text-left">
-						<div id="fh5co-logo"><a href="index.php"><img src="CHM Logo.png" width="100px" height="90px"></a></div>
-						</div>
+	
 	<nav class="fh5co-nav" role="navigation">
-	<div class="top-menu">
-			<div class="container">
+	
+		<div class="top-menu">
+					<div class="container">
 				<div class="row">
 					<!-- menu -->
-					
-					<div class="col-xs-9 text-right menu-1">
+					<div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Food-fair-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img id="logo" src="CHM Logo.png" class="logo img-responsive" width="130px" height="140px">
+                    </a>
+                </div>
+					<div class="col-xs-81 text-right menu-1">
 						<ul>
+						
 							<li class="active"><a href="index.php">HOME</a></li>
 							<li class="has-dropdown">
 								<a href="# #">ABOUT</a>
@@ -142,11 +152,28 @@ $(document).ready(function(){
 							<li class="has-dropdown">
 								<a href="# #">INFO</a>
 								<ul class="dropdown">
-									<li><a href="en/menu/Info/info.php">About Us</a></li>
+									<li><a href="en/menu/Info/info.php"><img src="header/call/call center.png" width="20px" height="25px" alt="call center">About Us</a></li>
+									<li><a href="order/order.css" target="_blank"><img src="header/order/order.png" width="20px" height="25px" alt="order">Order</a></li>
 									<li><a href="en/menu/Info/info.php">CAREER</a></li>
 								</ul>
 								
-                            
+                            <li class="has-dropdown">
+								<a href="# #">Socmed</a>
+								<ul class="dropdown">
+									<ul class="fh5co-social">
+										<li><a href="https://www.facebook.com/ernawulandarii" target="_blank"><img src="images/logo/facebook.png" width="25px" height="30px"></a></li>
+										<li><a href="https://twitter.com/_ernawulandari_" target="_blank"><img src="images/logo/twitter.png" width="25px" height="30px"></a></li>
+										<li><a href="https://www.youtube.com/"  target="_blank"><img src="images/logo/youtube.png" width="25px" height="30px"></a></li>
+										<li><a href="https://www.instagram.com/wulandrmoon" target="_blank"><img src="images/logo/instagram.png" width="25px" height="30px"></a></li>
+									</ul>
+								</ul>
+								
+							<li class="has-dropdown">
+								<a href="# #">Language</a>
+								<ul class="dropdown">
+									<li><a href="CHM.html">English</a></li>
+									<li><a href="id/index.php">Indonesia</a></li>
+								</ul>
 						</ul>
 					</div>
                     <!-- End menu -->
@@ -156,7 +183,6 @@ $(document).ready(function(){
 				
 			</div>
 		</div>
-		
 	</nav>
 	
 <CHM_MENU id="fh5co-hero">
@@ -218,79 +244,6 @@ $(document).ready(function(){
 <h2 style="color:blue;">TAG LINE CHM</h2>
 					<p>deskripsi chm </p>
 				</div>
-			</div>
-		  <div class="row" style="text-align:center;">
-				
-                <!-- icon adhimix div -->
-              <div class="col-md-2 col-sm-6 text-center animate-box">
-					<div class="services">
-						<span class="anima">
-						<a href="product_readymix.php" ><img src="images/icon_readymix.png" width="90" height="94" class="anima"></a> </span>
-						<div class="desc">
-						  <h3><a href="product_readymix.php"><br>
-					      Readymix</a></h3>
-							
-						</div>
-					</div>
-			  </div>
-                
-                <!-- icon adhimix div -->
-                <div class="col-md-2 col-sm-6 text-center animate-box">
-					<div class="services">
-						<span >
-						<a href="product_precast.php"><img src="images/icon_precast.png" width="90" height="94" class="anima"></a> </span>
-						<div class="desc">
-						  <h3><a href="product_precast.php"><br>
-					      Precast</a></h3>
-							
-					  </div>
-				  </div>
-				</div>
-                <!-- end // icon adhimix div -->
-                
-                <!-- icon adhimix div -->
-                <div class="col-md-2 col-sm-6 text-center animate-box">
-					<div class="services">
-						<span >
-						<a href="http://abadiprimaintikarya.com/services.php?id=1" target="_blank"><img src="images/icon_construct.png" width="90" height="94" class="anima"></a> </span>
-						<div class="desc">
-						  <h3><a href="http://abadiprimaintikarya.com/services.php?id=1" target="_blank"><br>
-					      Construction</a></h3>
-							
-					  </div>
-				  </div>
-				</div>
-                <!-- end // icon adhimix div -->
-                
-                <!-- icon adhimix div -->
-                <div class="col-md-2 col-sm-6 text-center animate-box">
-					<div class="services">
-						<span >
-						<a href="product_fabrication.php"><img src="images/icon_fabric.png" width="90" height="94" class="anima"></a> </span>
-						<div class="desc">
-						  <h3><a href="product_fabrication.php"><br>
-					      Fabrication</a></h3>
-							
-					  </div>
-				  </div>
-				</div>
-                <!-- end // icon adhimix div -->
-   
-                <!-- icon adhimix div -->
-            <div class="col-md-2 col-sm-6 text-center animate-box">
-					<div class="services">
-						<span >
-						<a href="product_trading.php"><img src="images/icon_trading.png" width="90" height="94" class="anima"></a> </span>
-						<div class="desc">
-						  <h3><a href="product_trading.php"><br>
-					      Trading</a></h3>
-							
-					  </div>
-			  </div>
-			</div>
-                <!-- end // icon adhimix div -->
-                
-               
 			</div>
 		</div>
 	</div>
