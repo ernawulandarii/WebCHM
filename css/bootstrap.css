@@ -1456,7 +1456,10 @@ pre code {
   .col-md-push-0 {
     left: auto;
   }
-
+  
+  .col-md-push-1a {
+    left: 4%;
+  }
   .col-md-push-1 {
     left: 8.33333%;
   }

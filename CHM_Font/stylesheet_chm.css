@@ -194,7 +194,6 @@
          url('cinematografica-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -207,6 +206,13 @@
 @font-face {
   font-family: 'Tekton';
   src: url('TektonPro-Bold.otf') format('opentype');       
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fontlero';
+  src: url('FONTLERO.ttf') format('truetype');       
   font-weight: normal;
   font-style: normal;
 }
