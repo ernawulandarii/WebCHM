@@ -216,3 +216,17 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Chilanka';
+  src: url('Chilanka-Regular.ttf') format('truetype');       
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bigshould';
+  src: url('BigShouldersDisplay-Light.ttf') format('truetype');       
+  font-weight: normal;
+  font-style: normal;
+}

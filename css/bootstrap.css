@@ -983,6 +983,10 @@ pre code {
   width: 100%;
 }
 
+.col-xs-13 {
+	width: 120%
+}
+
 .col-xs-pull-0 {
   right: auto;
 }
@@ -1404,7 +1408,11 @@ pre code {
   .col-md-pull-0 {
     right: auto;
   }
-
+  
+  .col-md-pull-05 {
+    right: 5%;
+  }
+  
   .col-md-pull-1 {
     right: 8.33333%;
   }
@@ -1460,6 +1468,7 @@ pre code {
   .col-md-push-1a {
     left: 4%;
   }
+  
   .col-md-push-1 {
     left: 8.33333%;
   }
