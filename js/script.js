@@ -67,7 +67,7 @@ $(document).ready(function() {
     });
 });
 
-
+/*
 $(document).ready(function(){
     $(window).scroll(function() {
         if ($(document).scrollTop() > 50) {
@@ -77,7 +77,7 @@ $(document).ready(function(){
              $("#logo").attr("src", "CHM Logo.png")
         }
     });
-});
+});*/
 /*=================================================================
             Load more button
 ===================================================================*/
