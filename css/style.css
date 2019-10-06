@@ -47,14 +47,77 @@ body {
   content: "";
 }
 
+/* tulisan pada socmed*/
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		
+		/* posisi socmed */
+		.social{
+			z-index: 7777;
+			position: fixed;
+			top: 250px;
+			}
+		
+		/* posisi socmed */
+		.social ul{
+			padding: 0px;
+			transform: translate(-250px,0);
+		}
+		
+		/* posisi antar socmed */
+		.social ul li{
+			display: block;
+			margin: 5px;
+			background: rgba(0,0,0,0.5);
+			width: 300px;
+			text-align: right;
+			padding: 10px;
+			border-radius: 0 30px 30px 0;
+			transition: all 1s;
+		}
+		
+		.social ul li i{
+			margin-left: 10px;
+			color: #000;
+			background: white;
+			padding: 10px;
+			border-radius: 50%;
+			width: 40px;
+			height: 40px;
+			font-size: 20px;
+			background: #ffffff;
+			transform: rotate(0deg);
+		}
+		
+		/* animasi pada socmed */
+		.social ul li:hover{
+			transform: translate(110px, 0);
+			background: #000033;
+			color: #4e8cc7;
+		}
+		
+		.socal ul li:hover a{
+			color: white;
+		}
+		
+		/*animasi logo socmed*/
+		.social ul li:hover i{
+			color: #4e8cc7;
+			background: #000;
+			transform: rotate(360deg);
+			transition: all 1s;
+		}
+		
 a {
-  color: #0000CC;
+  color: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #0000CC;
+  color: #4e8cc7;
   outline: none;
   text-decoration: none;
 }
@@ -118,39 +181,7 @@ h1, h2, h3, h4, h5, h6, figure {
     padding: 5px 10px;
   }
 }
-.fh5co-nav .top .site {
-  float: left;
-  font-weight: 300;
-  margin-top: 0px;
-  border-left: 1px solid rgba(0, 0, 0, 0.08);
-  border-right: 1px solid rgba(0, 0, 0, 0.08);
-}
-@media screen and (max-width: 480px) {
-  .fh5co-nav .top .site {
-    display: none;
-  }
-}
-.fh5co-nav .top .num {
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 13px;
-  letter-spacing: 0px;
-  border-left: 1px solid rgba(0, 0, 0, 0.08);
-}
-.fh5co-nav .top .fh5co-social {
-  margin: 0;
-  border-left: 1px solid rgba(0, 0, 0, 0.08);
-  border-right: 1px solid rgba(0, 0, 0, 0.08);
-}
-.fh5co-nav .top .fh5co-social li {
-  font-size: 14px;
-  display: inline-block;
-}
-.fh5co-nav .top .fh5co-social li a {
-  padding: 7px 7px;
-}
-.fh5co-nav .top .fh5co-social li a i {
-  font-size: 14px;
-}
+
 .fh5co-nav #fh5co-logo {
   font-size: 24px;
   margin-bottom: -30px;
