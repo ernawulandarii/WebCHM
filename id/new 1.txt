@@ -123,10 +123,10 @@ $(document).ready(function(){
 							<li class="has-dropdown">
 								<a href="# #">Tentang</a>
 								<ul class="dropdown">
-									<li><a href="../Tentang/profil.html">Profil</a></li>
-									<li><a href="../Tentang/orstruc.html">Struktur Organisasi</a></li>
-									<li><a href="../Tentang/sertif.html">Sertifikasi</a></li>
-                                    <li><a href="../Tentang/group.html">Rekan Kerjasama</a></li>
+									<li><a href="../Tentang/profil.php">Profil</a></li>
+									<li><a href="../Tentang/orstruc.php">Struktur Organisasi</a></li>
+									<li><a href="../Tentang/sertif.php">Sertifikasi</a></li>
+                                    <li><a href="../Tentang/group.php">Rekan Kerjasama</a></li>
 								</ul>
 							</li>
 														
@@ -151,8 +151,8 @@ $(document).ready(function(){
                             <li class="has-dropdown">
 								<a href="# #">Bahasa</a>
 								<ul class="dropdown">
-									<li><a href="../../en/Project/ProjectDo.html">Inggris</a></li>
-									<li><a href="Sedang.html">Indonesia</a></li>
+									<li><a href="../../en/Project/ProjectDone.html">Inggris</a></li>
+									<li><a href="Selesai.html">Indonesia</a></li>
 								</ul>
 						</ul>
 					</div>
@@ -183,7 +183,7 @@ $(document).ready(function(){
 	<div class="overlay"></div>
         <div class="row animate-box">
 			<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-					<h2 style="color:#000066;">Proyek Sedang Dilakukan</h2>
+					<h2 style="color:#000066;">Proyek Telah Dilakukan</h2>
 			</div>
 		</div>
     
@@ -233,30 +233,6 @@ $(document).ready(function(){
                                     </a>
                                 </li>
 								  
-								<li class="item desert">
-                                    <a href="#">
-                                        <img src="../../images/CHM3.png" class="img-responsive" alt="Food" >
-                                        <div class="menu-desc">
-                                            <span>
-                                                <h3>Salad Dish</h3>
-                                                Consectetur adipisicing elit, sed do eiusmod
-                                            </span>
-                                        </div>
-                                    </a>
-                                </li>
-
-								<li class="item desert">
-                                    <a href="#">
-                                        <img src="../../images/CHM3.png" class="img-responsive" alt="Food" >
-                                        <div class="menu-desc">
-                                            <span>
-                                                <h3>Salad Dish</h3>
-                                                Consectetur adipisicing elit, sed do eiusmod
-                                            </span>
-                                        </div>
-                                    </a>
-                                </li>
-								
                             </ul>
                         </div>   
                     </div>
@@ -269,6 +245,36 @@ $(document).ready(function(){
 	 </div>
 	</div>
 <!-- end // project -->
+
+
+	<div id="fh5co-counter" class="fh5co-counters" style=" background-color:#000033" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+            <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+					<h2 style="color:#4e8cc7;">Kebutuhanmu adalah Prioritas Kami</h2>
+					</div>
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row">
+						
+						<div class="col-md-7 col-sm-6 text-center animate-box">
+						<img src="../../images/molen.png" width="160px" height="120px">
+							<span class="icon"><i class="icon-head"></i></span>
+							<span class="fh5co-counter js-counter" data-from="0" data-to="3297" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="fh5co-counter-label">Produk Terjual</span>
+						</div>
+						<div class="col-md-2 col-sm-6 text-center animate-box">
+						<img src="../../images/Career.png" width="90px" height="120px">
+							<span class="icon"><i class="icon-head"></i></span>
+							<span class="fh5co-counter js-counter" data-from="0" data-to="3700" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="fh5co-counter-label">Total Pesanan</span>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 <!-- footer dimulai -->
 	<footer id="fh5co-footer" role="contentinfo" style=" background-color:#333">
