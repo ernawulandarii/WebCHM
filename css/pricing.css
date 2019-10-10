@@ -27,7 +27,8 @@
 .pricing-title {
 	color: #4e8cc7;
 	margin-bottom: 30px;
-	font-family: Alba;
+	text-transform: uppercase;
+	font-family: euphor3d;
 }
 
 
@@ -112,7 +113,7 @@
     font-size: 32px;
     padding: 12px;
     margin: 0px;
-	font-family: "Chilanka";
+	font-family: "Versalita";
 }
 
 @media (min-width: 991px) {

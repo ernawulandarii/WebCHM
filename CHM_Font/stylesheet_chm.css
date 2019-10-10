@@ -230,3 +230,31 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'pricedown';
+  src: url('pricedown.ttf') format('truetype');       
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Versalita';
+  src: url('Versalita.ttf') format('truetype');       
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'euphor3d';
+  src: url('euphor3d.ttf') format('truetype');       
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'shepherdy';
+  src: url('shepherdy.ttf') format('truetype');       
+  font-weight: normal;
+  font-style: normal;
+}
