@@ -83,16 +83,17 @@
 }
 
 /* box */
+
 #menu-pricing .item {
-	background-color: #4e8cc7;
-	box-shadow: 0px 2px 5px #000066;
+	/*background-color: #4e8cc7;
+	box-shadow: 0px 2px 5px #000066;*/
 	display: none;
 	vertical-align: top;
 	margin-bottom: 25px;
 	margin-right: 20px;
 	color: #fff;
 	text-align: center;
-	-moz-box-sizing: border-box;
+	/*-moz-box-sizing: border-box;*/
 }
 
 #menu-pricing .item a {
@@ -101,7 +102,6 @@
   width: 290px;
   height: 190px;
   text-decoration: none;
-  background: #4e8cc7;
 }
 
 #menu-pricing .item img {
@@ -111,7 +111,7 @@
 /* tulisan dalam box*/
 #menu-pricing .item h2 {
     font-size: 32px;
-    padding: 12px;
+	/*padding: 12px;*/
     margin: 0px;
 	font-family: "Versalita";
 }
@@ -142,22 +142,22 @@
 .menu-price li a .menu-desc {
 	position: absolute;
 	font-size: 14px;
-	background: rgba(119, 167, 212, 0.56);
+	background: rgba(119, 167, 212, 0.25);
 	width: 100%;
-	height: 100%;
 	bottom: -100%;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 /* Judul Text dalam Slide Box */
 .menu-price li a .menu-desc span h3 {
 	font-size: 30px;
-	color: #000066;
+	color: #fff;
 	margin-bottom: 5px;
+	font-family: "euphor3d";
 }
 
 /* menentukan arah slide */
@@ -170,6 +170,112 @@
 	display: block;
 	color: rgba(255,255,255,0.9);
 	font-size: 14px;
-  	padding: 22% 20px;
-  	line-height: 23px;
+	padding: 5% 10px;
+	
+  	/*padding: 22% 20px;
+  	line-height: 23px;*/
+	
+}
+/*------Product----*/
+/*on sale*/
+.title-box{
+	background: orange;
+	color: #fff;
+	width: 180px;
+	padding: 10px 10px;
+	height: 40px;
+	margin-bottom: 30px;
+	display: flex;
+}
+.title-box h2{
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align:center;
+}
+.title-box::after{
+	content: '';
+	border-top: 40px solid orange;
+	border-right: 50px solid transparent;
+	position: absolute;
+	display: flex;
+	margin-top: -4px;
+	margin-left: 170px;
+}
+/*------Product Categories----*/
+.product-categories{
+	margin: 50px 0;
+}
+.product-categories img{
+	width: 100%;
+	padding: 20px 0;
+	transition: 0.7s;
+	cursor: pointer;
+}
+.product-categories img:hover{
+	transform: scale(1.1);
+}
+/*------Product Top----*/
+.product-top img{
+	width: 100%;
+	background-position: center;
+}/*
+.overlay-right{
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	margin-left: 0;
+	width: 70px;
+}*/
+.overlay-right .fa{
+	cursor: : pointer;
+	/*background-color: #fff;*/
+	color: #000033;
+	/*height: 15px;
+	width: 15px;*/
+	font-size: 15px;
+}
+.overlay-right .btn-secondary
+{
+	/*background: none !important;*/
+	border: none !important;
+	box-shadow: none !important;
+}/*
+.overlay-right .btn-secondary:hover
+{
+	opacity: 1
+	color: #fff;
+	transition: 0.5s;
+}*/
+
+.menu-price .overlay-right .fa:hover{
+	opacity: 1;
+	color: #000;
+	margin-left: 5%;
+	transition: 0.5s;
+}
+.overlay-right .btn-secondary:hover
+{
+	background: #808080;
+}
+/*------Product Bottom----*/
+.product-bottom .fa{
+	color: orange;
+	font-size: 10px;
+}
+.product-bottom h3{
+	font-size: 25px;
+	font-weight: bold;
+
+	font-family: "cinematografica-extrabold";
+}
+.product-bottom h5{
+	font-size: 15px;
+	padding-bottom: 10px;
+	font-family: "cinematografica-extrabold";
+}
+.product-bottom h5:hover{
+	font-size: 20px;
+	transition: 0.5s;
+	color: #4e8cc7;
 }
