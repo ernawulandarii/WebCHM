@@ -28,7 +28,7 @@
 	color: #4e8cc7;
 	margin-bottom: 30px;
 	text-transform: uppercase;
-	font-family: euphor3d;
+	font-family: ideal;
 }
 
 
@@ -80,12 +80,13 @@
   	padding: 0px 0px 25px 0px;
   	margin-bottom: 0;
 	text-align: center;
+
 }
 
 /* box */
 
 #menu-pricing .item {
-	/*background-color: #4e8cc7;
+	/*background-color: #b2b2b2;
 	box-shadow: 0px 2px 5px #000066;*/
 	display: none;
 	vertical-align: top;
@@ -154,10 +155,10 @@
 
 /* Judul Text dalam Slide Box */
 .menu-price li a .menu-desc span h3 {
-	font-size: 30px;
+	font-size: 20px;
 	color: #fff;
 	margin-bottom: 5px;
-	font-family: "euphor3d";
+	font-family: "ideal";
 }
 
 /* menentukan arah slide */
@@ -176,6 +177,164 @@
   	line-height: 23px;*/
 	
 }
+
+/*------MenuPrice2------*/
+/* box */
+
+#menu-pricing .item2 {
+	background-color: #b2b2b2;
+	box-shadow: 0px 2px 5px #444;
+	display: none;
+	vertical-align: top;
+	margin-bottom: 25px;
+	margin-right: 20px;
+	color: #000033;
+	text-align: center;
+	font-family: "ideal";
+	font-size: 15px;
+	/*-moz-box-sizing: border-box;*/
+}
+#menu-pricing .item2:hover{
+	color: transparent;
+	background-color: none !important;
+	text-overflow: none !important;
+	/*-moz-box-sizing: border-box;*/
+}
+
+#menu-pricing .item2 a {
+  display: flex;
+  max-width: 100%;
+  width: 290px;
+  height: 190px;
+  text-decoration: none;
+}
+
+#menu-pricing .item2 img {
+  max-width: 100%;
+}
+
+/* tulisan dalam box*/
+#menu-pricing .item2 h2 {
+    font-size: 20px;
+    color: #000033;
+	/*padding: 12px;*/
+    margin: 0px;
+	font-family: "ideal";
+}
+
+@media (min-width: 991px) {
+	#menu-pricing .item2:nth-child(7),
+	#menu-pricing .item2:nth-child(8),
+	#menu-pricing .item2:nth-child(9) {
+		margin-bottom: 25px;
+	}
+}
+
+#menu-pricing .item3 {
+	background-color: #808080;
+	box-shadow: 0px 2px 5px #444;
+	display: none;
+	vertical-align: top;
+	margin-bottom: 25px;
+	margin-right: 20px;
+	color: #000066;
+	text-align: center;
+	font-family: "ideal";
+	font-size: 15px;
+	/*-moz-box-sizing: border-box;*/
+}
+#menu-pricing .item3:hover{
+	color: transparent;
+	background-color: none !important;
+	text-overflow: none !important;
+	/*-moz-box-sizing: border-box;*/
+}
+
+#menu-pricing .item3 a {
+  display: flex;
+  max-width: 100%;
+  width: 290px;
+  height: 190px;
+  text-decoration: none;
+}
+
+#menu-pricing .item3 img {
+  max-width: 100%;
+}
+
+/* tulisan dalam box*/
+#menu-pricing .item3 h2 {
+    font-size: 20px;
+    color: #000033;
+	/*padding: 12px;*/
+    margin: 0px;
+	font-family: ideal;
+}
+
+@media (min-width: 991px) {
+	#menu-pricing .item3:nth-child(7),
+	#menu-pricing .item3:nth-child(8),
+	#menu-pricing .item3:nth-child(9) {
+		margin-bottom: 25px;
+	}
+}
+
+.menu-price2 li a,
+.menu-price2 li a img {
+	display: block;
+	position: relative;
+}
+
+
+/*gambar menu Project */
+
+.menu-price2 li a {
+	overflow: hidden;
+	color: #fff;
+}
+/* slide box */
+.menu-price2 li a .menu-desc {
+	position: absolute;
+	font-size: 14px;
+	background: rgba(119, 167, 212, 0.25);
+	width: 100%;
+	bottom: -100%;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+/* Judul Text dalam Slide Box */
+.menu-price2 li a .menu-desc span h3 {
+	font-size: 20px;
+	color: #000;
+	margin-bottom: 5px;
+	font-family: "Tekton";
+}
+
+.menu-price2 li a .menu-desc span h5 {
+	font-size: 15px;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+/* menentukan arah slide */
+.menu-price2 li a:hover .menu-desc {
+	bottom : 0px;
+}
+
+/* isi text didalam slide box */
+.menu-price2 li a:hover .menu-desc span {
+	display: block;
+	color: rgba(255,255,255,0.9);
+	font-size: 14px;
+  	/*padding: 22% 20px;
+  	line-height: 23px;*/
+	
+}
+
 /*------Product----*/
 /*on sale*/
 .title-box{
