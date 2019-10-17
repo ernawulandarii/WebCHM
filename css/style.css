@@ -764,6 +764,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-heading {
   margin-bottom: 0em;
   margin-top: 20px;
+  margin-right: 5px;
 }
 .fh5co-heading h2 {
   font-size: 24px;
@@ -788,7 +789,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-heading p {
   font-size: 20px;
-  color: #CCC;
+  color: #000;
   font-family: "Bigshould";
 }
 
@@ -1758,7 +1759,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .body {
-  background-image: url("../images/CHM5.png");
+  background-image: url("../images/CHM.png");
 }
 
 .body2 {
@@ -1766,7 +1767,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .body3 {
-  background-image: url("../images/CHM6.png");
+  background-image: url("../images/front.png");
 }
 
 .body4 {
@@ -1778,7 +1779,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .body6 {
-  background-image: url("../images/CHM7.png");
+  background-image: url("../images/CHM4.png");
 }
 
 /*# sourceMappingURL=style.css.map */
